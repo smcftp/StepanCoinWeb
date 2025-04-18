@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef } from 'react'
 import { EmblaOptionsType } from 'embla-carousel'
 import { useDotButton } from './EmblaCarouselDotButton'
 import useEmblaCarousel from 'embla-carousel-react'
