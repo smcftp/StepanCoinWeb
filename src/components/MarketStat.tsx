@@ -22,7 +22,7 @@ export default function MarketStat() {
 
   async function fetchData() {
     try {
-      const response = await apiService.get('/token-pairs/v1/ton/EQBzDYQE6nBlwIMgERlwbPkzb9fBXXPey1gkjxPC6LKSDITU');
+      const response = await apiService.get('/token-pairs/v1/ton/EQDODJ_ZFDIGNnjKw-MUmhzzdZzFt9aD34XrdLty1BBKsXLG');
       setData(response.data?.pairs || null);
       setError(false);
     } catch (error: any) {
