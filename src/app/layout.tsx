@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AGENT PI",
+  title: "STEPAN COIN",
   description: "The Blum Memecoin",
 };
 
