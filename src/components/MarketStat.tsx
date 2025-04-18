@@ -6,10 +6,10 @@ import Image from 'next/image';
 
 // Константные значения для случая ошибки
 const FALLBACK_VALUES = {
-  marketCap: 176.1,    // 1M
-  volume: 0,        // 500K
-  transactions: 0,    // 1K транзакций
-  liquidity: 0     // 2M
+  marketCap: 132900,    // 1M
+  volume: 45600,        // 500K
+  transactions: 734,    // 1K транзакций
+  liquidity: 45600     // 2M
 };
 
 export default function MarketStat() {
@@ -31,11 +31,17 @@ export default function MarketStat() {
     }
   }
 
-  function shortenNumber(number: number) {
-    if (!number) return 0;
-    const divided = number / 1000;
-    const rounded = divided.toFixed(1);
-    return parseFloat(rounded);
+  function formatMarketCap(number: number | null | undefined): string {
+    if (number == null) return '0';
+    
+    const inThousands = number / 1000;
+    return inThousands.toFixed(1);
+  }
+
+  function formatRegularNumber(number: number | null | undefined): string {
+    if (number == null) return '0';
+    
+    return Math.round(number).toLocaleString('ru-RU');
   }
 
   useEffect(() => {
@@ -61,7 +67,7 @@ export default function MarketStat() {
             Рыночная капитализация</p>
           <p className="font-bold text-2xl xs:text-[50px] md:text-[72px] xl:text-[96px]
             leading-[34px] xs:leading-[67px] md:leading-[96px] xl:leading-[128px]">
-            ${shortenNumber(displayData.marketCap)}K</p>
+            ${displayData?.marketCap ? formatMarketCap(displayData.marketCap) : '0'}K</p>
         </div>
         <div className="flex flex-col sm:flex-row sm:gap-5 md:gap-[30px] xl:gap-10 sm:items-end h-full justify-between">
           <div className="flex flex-col items-start">
@@ -69,7 +75,7 @@ export default function MarketStat() {
               leading-[13px] xs:leading-[17px] md:leading-[24px] xl:leading-[32px] whitespace-nowrap">Объём торгов (24ч)</p>
             <p className="font-semibold text-[19px] xs:text-[25px] md:text-[36px] xl:text-[24px]
               leading-[25px] xs:leading-[34px] md:leading-[48px] xl:leading-[64px]">
-              ${displayData.volume}</p>
+              ${displayData?.volume ? formatRegularNumber(displayData.volume) : '0'}</p>
           </div>
           <div className="flex flex-col items-start">
             <p className="text-[9px] xs:text-[13px] md:text-[18px] xl:text-[24px]
@@ -77,7 +83,7 @@ export default function MarketStat() {
               Транзакции (24ч)</p>
             <p className="font-semibold text-[19px] xs:text-[25px] md:text-[36px] xl:text-[24px]
               leading-[25px] xs:leading-[34px] md:leading-[48px] xl:leading-[64px]">
-              {displayData.transactions}</p>
+              {displayData?.transactions}</p>
           </div>
           <div className="flex flex-col items-start">
             <p className="text-[9px] xs:text-[13px] md:text-[18px] xl:text-[24px]
@@ -85,7 +91,7 @@ export default function MarketStat() {
               Ликвидность</p>
             <p className="font-semibold text-[19px] xs:text-[25px] md:text-[36px] xl:text-[24px]
               leading-[25px] xs:leading-[34px] md:leading-[48px] xl:leading-[64px]">
-              ${displayData.liquidity}</p>
+              ${displayData?.liquidity ? formatRegularNumber(displayData.liquidity) : '0'}</p>
           </div>
         </div>
       </div>
