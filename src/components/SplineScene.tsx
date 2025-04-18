@@ -1,4 +1,4 @@
-import Spline from "@splinetool/react-spline";
+// import Spline from "@splinetool/react-spline";
 import Image from 'next/image';
 
 export default function SplineScene() {
