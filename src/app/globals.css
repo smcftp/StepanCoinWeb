@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #111111;
+    --foreground: #fafafa;
+    --accent-sulu: #F36520;
+    --accent-orange: #C466F4;
+    --secondary: #525252;
+}
+
+@font-face {
+    font-family: "Involve";
+    src: url("/fonts/Involve-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Involve";
+    src: url("/fonts/Involve-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Involve";
+    src: url("/fonts/Involve-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Involve";
+    src: url("/fonts/Involve-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Involve", sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+@layer base {
+
+    @media (max-width: 576px){
+        h2{
+            font-size: 32px;
+            line-height: 43px;
+        }
+
+        h3 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        h4 {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+    
+            & li {
+                display: flex;
+                gap: 7px;
+                margin-bottom: 10px;
+    
+                &:last-child {
+                    margin-bottom: 0;
+                }
+    
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    min-width: 16px;
+                    height: 16px;
+                    background-image: url("/bullet.svg");
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 576px) {
+        h2 {
+            font-size: 48px;
+            line-height: 64px;
+        }
+
+        h3 {
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        h4 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+    
+            & li {
+                display: flex;
+                gap: 7px;
+                margin-bottom: 10px;
+    
+                &:last-child {
+                    margin-bottom: 0;
+                }
+    
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    min-width: 32px;
+                    height: 32px;
+                    background-image: url("/bullet.svg");
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        h3 {
+            font-size: 48px;
+            line-height: 64px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        h2 {
+            font-size: 64px;
+            line-height: 85px;
+        }
+
+        h3 {
+            font-size: 96px;
+            line-height: 128px;
+        }
+
+        h4 {
+            font-size: 32px;
+            line-height: 43px;
+        }
+    }
+
+
+    h1 {
+        font-size: 70px;
+        color: var(--accent-sulu);
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .ul-short-gap {
+        & li {
+            margin-bottom: 5px;
+        }
+    }
+}
