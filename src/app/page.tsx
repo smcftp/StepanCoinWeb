@@ -41,7 +41,7 @@ export default function Home() {
       {/* <Markets/> */}
       <Stickers/>
         <section className="flex justify-center items-center px-6 py-[58px] xs:px-[58px] xs:py-[90px] sm:py-[70px] md:py-[58px] lg:px-[116px] gap-10 font-medium">
-          <SocNetCard href="https://t.me/+dVyZCdOh6KYwMjky" src="/telegram.svg" alt="Telegram" />
+          <SocNetCard href="https://t.me/stepan_coin" src="/telegram.svg" alt="Telegram" />
           {/* <SocNetCard href="https://x.com/AgentPi_OFF" src="/x.svg" alt="X"/> */}
           <SocNetCard href="https://www.twitch.tv/stepan_coin_official" src="/twitch.svg" alt="Twitch" />
         </section>
