@@ -9,7 +9,7 @@ export default function Footer(){
             </div>
             <div className="flex flex-col gap-6 text-xs sm:text-base sm:gap-4 sm:flex-row-reverse sm:justify-between">
                 <div className="flex gap-3 w-full sm:w-fit">
-                    <Link href="https://t.me/+dVyZCdOh6KYwMjky" legacyBehavior>
+                    <Link href="https://t.me/stepan_coin" legacyBehavior>
                         <a target="_blank" rel="noopener noreferrer">TELEGRAM</a>
                     </Link>
                     <Link href="https://www.twitch.tv/stepan_coin_official" legacyBehavior>
