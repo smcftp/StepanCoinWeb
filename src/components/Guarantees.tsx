@@ -50,7 +50,7 @@ export default function Guarantees() {
               Купить токен на Blum
             </a>
           </Link>
-          <Link href="https://t.me/+dVyZCdOh6KYwMjky" legacyBehavior>
+          <Link href="https://t.me/stepan_coin" legacyBehavior>
             <a target="_blank" rel="noopener noreferrer"
               className="py-4 w-full text-center border-b-2 border-transparent
               hover:border-sulu transition-all duration-300 ease-out text-sm xs:text-base ">
