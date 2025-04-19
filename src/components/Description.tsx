@@ -18,7 +18,7 @@ export default function Description() {
                     максимально понятно без заумных слов и мутных схем.
                 </span>
             </div>
-            <Link href={'https://www.blum.io/ru'} legacyBehavior>
+            <Link href={'https://t.me/blum/app?startapp=memepadjetton_STEPAN_E4ImZ-ref_iaqoA94I4K'} legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer"
                     className="rounded-15 border-3 border-sulu py-4 px-[30px] w-full xs:w-fit hover:bg-sulu
                     hover:shadow-btn transition-all duration-250 ease-out text-center text-sm xs:text-base mx-auto">
