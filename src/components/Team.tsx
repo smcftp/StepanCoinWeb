@@ -2,24 +2,9 @@ import EmblaDoubleCarousel from "./EmblaCarousel/EmblaDoubleCarousel";
 
 const slides = [
     {
-        name: "Alex Tsvirko",
+        name: "Stepan",
         role: 'CEO',
-        link: "@AIex_Ads"
-    },
-    {
-        name: "Ivan Tikhonov",
-        role: 'Web-Developer',
-        link: "@yunhurts"
-    },
-    {
-        name: "Ilya Kazhdan",
-        role: 'Moderator',
-        link: "@ninekmmrtvar"
-    },
-    {
-        name: "Egor Kostenko",
-        role: 'Moderator',
-        link: "@eg_boch"
+        link: "@STEPA4KEEN"
     },
 ]
 
@@ -27,9 +12,9 @@ export default function Team() {
 
     return (
         <section className="flex flex-col px-6 xs:px-[58px] lg:py-[58px] lg:px-[116px] gap-12">
-            <div className="flex flex-col gap-3">
-                <h3 className="text-start">Наша команда</h3>
-                <div>
+            <div className="flex flex-col gap-3 items-center">
+                <h2 className="text-center">Создатель проекта</h2>
+                <div className="w-full flex justify-center">
                     <EmblaDoubleCarousel slides={slides} />
                 </div>
             </div>
