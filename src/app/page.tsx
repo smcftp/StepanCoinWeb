@@ -8,7 +8,7 @@ import Stickers from "@/components/Stickers";
 // import Markets from "@/components/Markets";
 // import Tokens from "@/components/Tokens";
 import Guarantees from "@/components/Guarantees";
-// import Achievements from "@/components/Achievements";
+import Achievements from "@/components/Achievements";
 import Description from "@/components/Description";
 
 
@@ -30,7 +30,7 @@ export default function Home() {
       <SplineScene />
       <Description/>
       <Guarantees/>
-      {/* <Achievements/> */}
+      <Achievements/>
       <section className="flex flex-col gap-6 py-12">
         <h2 className="text-[36px] xs:text-[48px] lg:text-[64px] leading-[48px] xs:leading-[64px] lg:leading-[85px]">Roadmap</h2>
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
