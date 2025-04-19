@@ -6,10 +6,10 @@ import Image from 'next/image';
 
 // Константные значения для случая ошибки
 const FALLBACK_VALUES = {
-  marketCap: 132900,    // 1M
-  volume: 45600,        // 500K
-  transactions: 734,    // 1K транзакций
-  liquidity: 45600     // 2M
+  marketCap: 184200,    // 1M
+  volume: 63300,        // 500K
+  transactions: 1180,    // 1K транзакций
+  liquidity: 63300     // 2M
 };
 
 export default function MarketStat() {
