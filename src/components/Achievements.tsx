@@ -17,7 +17,7 @@ export default function Achievements() {
                     <li>Создали мини-аппку STEPAN COIN</li>
                     {/* <li>Начали делать игру в WebApp</li> */}
                 </ul>
-                <span>...а также верфицировали токен <span className="text-sulu font-bold">уже в процессе</span></span>
+                <span>...а также верефикация токена<span className="text-sulu font-bold"> уже в процессе</span></span>
             </div>
         </section>
     )
