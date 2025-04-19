@@ -29,6 +29,7 @@ export default function Home() {
     <main>
       <SplineScene />
       <Description/>
+      <Team/>
       <Guarantees/>
       <Achievements/>
       <section className="flex flex-col gap-6 py-12">
@@ -36,7 +37,6 @@ export default function Home() {
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </section>
       <MarketStat/>
-      <Team/>
       <Tokens/>
       {/* <Markets/> */}
       <Stickers/>
