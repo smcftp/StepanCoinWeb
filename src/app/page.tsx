@@ -4,7 +4,7 @@ import { EmblaOptionsType } from 'embla-carousel'
 import MarketStat from "@/components/MarketStat";
 import SocNetCard from "@/components/SocNetCard";
 import Stickers from "@/components/Stickers";
-// import Team from "@/components/Team";
+import Team from "@/components/Team";
 // import Markets from "@/components/Markets";
 import Tokens from "@/components/Tokens";
 import Guarantees from "@/components/Guarantees";
@@ -36,7 +36,7 @@ export default function Home() {
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </section>
       <MarketStat/>
-      {/* <Team/> */}
+      <Team/>
       <Tokens/>
       {/* <Markets/> */}
       <Stickers/>
