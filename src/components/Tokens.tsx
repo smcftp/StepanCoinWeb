@@ -7,27 +7,27 @@ export default function Tokens() {
       <div className="flex flex-col md:flex-row gap-6 w-full">
         <div className="flex flex-col gap-6 flex-auto min-w-0">
           <WalletCard
-            role="Создатель"
-            wallet="UQDLVr7uvcJbPls95JtXmgNSk9GhNEiyddjxWEAvgbPNcoMG"
-            amount={1000}
+            role="Дев"
+            wallet="UQCWVe07A1_mVHhFki1NAOaoTJRpDxS1iR5VofLGWSdcfxXP"
+            amount={0}
             inverted
           />
-          <WalletCard role="Выплаты сообществу"
+          {/* <WalletCard role="Выплаты сообществу"
             wallet="UQCWHSW7QoNTV6XaZ-1JZD51gtMFa1qWmo5C7Ee6mBtWGE74"
             amount={1000}
-          />
+          /> */}
         </div>
         <div className="flex flex-col gap-6 flex-auto min-w-0">
           <WalletCard 
-            role="Будущий стейкинг"
-            wallet="UQBdKgNurYk652MbDVdcltYxZd4uhyOTHodzKn6UpWOyhzFF"
-            amount={1000}  
+            role="Лок дева"
+            wallet="EQDODJ_ZFDIGNnjKw-MUmhzzdZzFt9aD34XrdLty1BBKsXLG"
+            amount={569064763}  
           />
-          <WalletCard role="Заблокированные токены"
+          {/* <WalletCard role="Заблокированные токены"
             wallet="UQDLvLoz8kLxtO1VkV96E9MSMYzB7T4l1NML19iQXxX_Fg-1"
             amount={1000}
             inverted
-          />
+          /> */}
         </div>
       </div>
     </section>
