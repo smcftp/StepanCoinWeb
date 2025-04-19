@@ -10,10 +10,10 @@ export default function Guarantees() {
           px-5 py-25px md:px-10 md:py-[35px]">
           <h4><span className="text-sulu">Почему</span> заслуживаем доверия?</h4>
           <ul className="text-xs xs:text-xl lg:text-2xl leading-4 xs:leading-[27px] lg:leading-[32px]">
-            <li>Я никого не боюсь, лицо видит любой</li>
-            <li>Тревожат вопросы? Готов ответить  на них на стриме. Также моя команда всегда готова сделать твой выбор нас наиболее спокойным</li>
-            <li>После запуска проекта 100% токенов будет залочено</li>
-            <li>Предоплата за листинг на децентрализованной бирже уже давно внесена</li>
+            <li>Я никого не боюсь, лицо видит любой на стримах</li>
+            <li>Тревожат вопросы? Готов ответить на них на стриме. Также моя команда всегда готова сделать твой выбор нас наиболее спокойным</li>
+            <li>100% токенов дева залочена на 3 месяца</li>
+            <li>Листинг на децентрализованной бирже</li>
           </ul>
         </div>
         {/* <div className="flex flex-col gap-5 w-full">
@@ -43,7 +43,7 @@ export default function Guarantees() {
         </div>
         <div className="flex flex-col gap-5 w-full">
           {/* <Link href={'https://t.me/blum/app?startapp=memepadjetton_AGENTPI_Xf5MB-ref_M5d24os956'} */}
-          <Link href={'https://www.blum.io/ru'} legacyBehavior>
+          <Link href={'https://t.me/blum/app?startapp=memepadjetton_STEPAN_E4ImZ-ref_iaqoA94I4K'} legacyBehavior>
             <a target="_blank" rel="noopener noreferrer" 
               className="rounded-15 border-3 border-sulu py-4 w-full hover:bg-sulu
               hover:shadow-btn transition-all duration-250 ease-out text-center text-sm xs:text-base ">
