@@ -5,6 +5,7 @@ export default function Achievements() {
             <div className="border-2 border-sulu rounded-15 xs:rounded-[30px] px-5 py-25px md:px-10 md:py-[35px]
              flex flex-col gap-[5px] text-xs xs:text-xl lg:text-2xl leading-4 xs:leading-[27px] lg:leading-[32px]">
                 <ul className="ul-short-gap ">
+                    <li>200K+ капитализация за первые 3 часа </li>
                     <li>Имеем 280+ холдеров $STEPAN COIN</li>
                     <li>ТОП 10 на DexScreen</li>
                     {/* <li>Зарейдили СНГ и США стримеров</li> */}
