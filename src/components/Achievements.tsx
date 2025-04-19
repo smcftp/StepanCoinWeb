@@ -1,7 +1,7 @@
 export default function Achievements() {
     return (
         <section className="flex flex-col gap-3 p-6 xs:px-[58px] lg:px-[116px] lg:py-[58px]">
-            <h2>Достижения за <span className="text-orange font-bold">16 часов</span> новый <span className="text-orange font-bold">ГЕМ</span></h2>
+            <h2>Достижения за <span className="text-orange font-bold">16 часов</span> — новый <span className="text-orange font-bold">ГЕМ</span></h2>
             <div className="border-2 border-sulu rounded-15 xs:rounded-[30px] px-5 py-25px md:px-10 md:py-[35px]
              flex flex-col gap-[5px] text-xs xs:text-xl lg:text-2xl leading-4 xs:leading-[27px] lg:leading-[32px]">
                 <ul className="ul-short-gap ">
