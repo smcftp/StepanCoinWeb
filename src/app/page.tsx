@@ -6,7 +6,7 @@ import SocNetCard from "@/components/SocNetCard";
 import Stickers from "@/components/Stickers";
 // import Team from "@/components/Team";
 // import Markets from "@/components/Markets";
-// import Tokens from "@/components/Tokens";
+import Tokens from "@/components/Tokens";
 import Guarantees from "@/components/Guarantees";
 import Achievements from "@/components/Achievements";
 import Description from "@/components/Description";
@@ -37,7 +37,7 @@ export default function Home() {
       </section>
       <MarketStat/>
       {/* <Team/> */}
-      {/* <Tokens/> */}
+      <Tokens/>
       {/* <Markets/> */}
       <Stickers/>
         <section className="flex justify-center items-center px-6 py-[58px] xs:px-[58px] xs:py-[90px] sm:py-[70px] md:py-[58px] lg:px-[116px] gap-10 font-medium">
